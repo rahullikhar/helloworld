@@ -22,3 +22,5 @@ print(s.endswith('world'))
 s = 'hello\tworld'
 print(s.expandtabs(4))
 
+s = 'hello world'
+print(s.find('world'))
