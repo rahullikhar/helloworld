@@ -1,0 +1,15 @@
+# Get input from the user
+a = float(input("Enter the first number: "))
+b = float(input("Enter the second number: "))
+c = float(input("Enter the third number: "))
+
+# Find the maximum using nested ternary operators
+# This can be a bit less readable for three numbers compared to if/else,
+# but fulfills the requirement of using the ternary operator.
+maximum = a if (a > b and a > c) else (b if (b > c) else c)
+
+# Print the maximum number
+print(f"The maximum of {a}, {b}, and {c}) is: {maximum}")
+
+# Alternative using the max() function (more Pythonic but doesn't use ternary)
+# print(f"The maximum of {a}, {b}, and {c} is: {max(a, b, c)}")
