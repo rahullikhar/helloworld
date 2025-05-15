@@ -1,0 +1,5 @@
+my_str="i am learning python by own"
+print(my_str[0:4:3])
+#[start:end:step]
+print(my_str[8:len(my_str)])
+print(my_str[::-1])
