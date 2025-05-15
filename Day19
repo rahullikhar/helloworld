@@ -1,0 +1,8 @@
+#condition and loop
+
+age=int(input("Enter the you age!"))
+
+if age > 18:
+    print("yes you can watch the adult film")
+else:
+    print("not allowed to watch adult film!")
